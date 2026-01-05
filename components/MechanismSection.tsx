@@ -17,8 +17,8 @@ export const MechanismSection: React.FC = () => {
     <Section id="section_3_mechanism" background="white">
       <div className="text-center max-w-3xl mx-auto mb-16">
         <span className="text-brand-gold font-bold tracking-widest text-xs uppercase mb-3 block">Engenharia Natural</span>
-        <h2 className="text-3xl md:text-5xl text-primary-green font-bold mb-6">A Sinergia <span className="font-normal">do Blend</span></h2>
-        <p className="text-neutral-text/80 font-light text-lg">
+        <h2 className="text-3xl md:text-4xl lg:text-[44px] text-primary-green font-bold leading-tight mb-6">A Sinergia <span className="font-normal">do Blend</span></h2>
+        <p className="text-neutral-text/80 font-light text-sm leading-relaxed max-w-2xl mx-auto">
           Três ativos poderosos potencializados pela nossa exclusiva tecnologia de ozonização.
         </p>
       </div>
@@ -48,15 +48,15 @@ export const MechanismSection: React.FC = () => {
           <ul className="space-y-4">
             <li className="flex items-start gap-3">
               <Award className="w-5 h-5 text-brand-gold mt-1 flex-shrink-0" />
-              <span className="text-neutral-text"><strong>Nanotecnologia</strong> de liberação prolongada para proteção 12h.</span>
+              <span className="text-neutral-text text-sm font-light"><strong>Nanotecnologia</strong> de liberação prolongada para proteção 12h.</span>
             </li>
             <li className="flex items-start gap-3">
               <Award className="w-5 h-5 text-brand-gold mt-1 flex-shrink-0" />
-              <span className="text-neutral-text">Bioatividade preservada por <strong>liofilização </strong>(secagem por congelação).</span>
+              <span className="text-neutral-text text-sm font-light">Bioatividade preservada por <strong>liofilização </strong>(secagem por congelação).</span>
             </li>
             <li className="flex items-start gap-3">
               <Award className="w-5 h-5 text-brand-gold mt-1 flex-shrink-0" />
-              <span className="text-neutral-text">Eficácia superior à Clorexidina em estudos comparativos (sem manchar os dentes).</span>
+              <span className="text-neutral-text text-sm font-light">Eficácia superior à Clorexidina em estudos comparativos (sem manchar os dentes).</span>
             </li>
           </ul>
         </div>

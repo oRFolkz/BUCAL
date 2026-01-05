@@ -6,7 +6,7 @@ import { Button } from './ui/Button';
 export const HeroSection: React.FC = () => {
   return (
     <div className="relative min-h-[90vh] flex items-center bg-white overflow-hidden" id="section_1_hero">
-      <div className="container mx-auto px-6 md:px-12 pt-24 pb-12 lg:py-0">
+      <div className="w-full max-w-[1300px] mx-auto px-6 md:px-12 pt-24 pb-12 lg:py-0">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           
           {/* Text Content */}
@@ -24,7 +24,7 @@ export const HeroSection: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="text-4xl md:text-5xl lg:text-6xl text-primary-green font-bold leading-tight mb-6"
+              className="text-3xl md:text-4xl lg:text-[44px] text-primary-green font-bold leading-tight mb-6"
             >
               A Revolução do Ozônio: <span className="font-normal">Hálito Puro</span> e Gengivas Saudáveis.
             </motion.h1>
@@ -33,7 +33,7 @@ export const HeroSection: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="text-lg md:text-xl font-light text-neutral-text mb-8 max-w-lg leading-relaxed"
+              className="text-sm font-light text-neutral-text mb-8 max-w-lg leading-relaxed"
             >
               O primeiro blend ozonizado com nanotecnologia que elimina bactérias do mau hálito, combate o tártaro e alivia a sensibilidade. <strong className="font-semibold">Aprovado pela ANVISA.</strong>
             </motion.p>
@@ -53,7 +53,7 @@ export const HeroSection: React.FC = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
-              className="text-xs text-neutral-text/70 mb-8 italic"
+              className="text-sm text-neutral-text/70 mb-8 italic"
             >
               Envio imediato para todo o Brasil • Frete Grátis disponível*
             </motion.p>
@@ -62,7 +62,7 @@ export const HeroSection: React.FC = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
-              className="flex flex-wrap gap-4 text-xs font-medium text-primary-green"
+              className="flex flex-wrap gap-4 text-sm font-medium text-primary-green"
             >
               <div className="flex items-center gap-2 bg-white border border-primary-green/10 px-3 py-2 rounded-lg shadow-sm">
                 <ShieldCheck className="w-4 h-4 text-brand-gold" />

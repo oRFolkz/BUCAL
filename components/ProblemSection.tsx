@@ -18,20 +18,20 @@ export const ProblemSection: React.FC = () => {
                   <XCircle className="w-5 h-5" />
                 </div>
                 <h4 className="font-bold text-neutral-text">Higiene Comum</h4>
-                <p className="text-sm text-neutral-500 mt-1">Apenas 25% da área bucal. Bactérias anaeróbicas continuam vivas fermentando restos de alimentos.</p>
+                <p className="text-sm font-light text-neutral-500 mt-1 leading-relaxed">Apenas 25% da área bucal. Bactérias anaeróbicas continuam vivas fermentando restos de alimentos.</p>
               </div>
               
               <div className="relative pl-6 border-l-2 border-brand-gold">
                 <div className="absolute -left-2.5 top-0 bg-white text-brand-gold">
                   <Microscope className="w-5 h-5" />
                 </div>
-                <h4 className="font-bold text-primary-green">Tecnologia N1</h4>
-                <p className="text-sm text-neutral-500 mt-1">Penetração profunda com Gás Ozônio. Neutraliza a acidez e atinge 99% das bactérias nocivas.</p>
+                <h4 className="font-bold text-primary-green">Tecnologia Bucal Blend</h4>
+                <p className="text-sm font-light text-neutral-500 mt-1 leading-relaxed">Penetração profunda com Gás Ozônio. Neutraliza a acidez e atinge 99% das bactérias nocivas.</p>
               </div>
             </div>
 
             <div className="mt-8 bg-neutral-50 rounded-xl p-4 text-left">
-              <span className="block text-xs uppercase tracking-widest text-neutral-400 mb-2">Área de Proteção</span>
+              <span className="block text-xs uppercase tracking-widest text-neutral-400 mb-2 font-bold">Área de Proteção</span>
               <div className="flex items-end justify-center gap-4 h-32">
                  <div className="w-16 bg-red-200 rounded-t-lg h-[25%] relative group-hover:opacity-50 transition-opacity">
                     <span className="absolute -top-6 left-0 right-0 text-xs font-bold text-red-400">25%</span>
@@ -46,11 +46,11 @@ export const ProblemSection: React.FC = () => {
 
         {/* Text Content - Right 7 cols */}
         <div className="lg:col-span-7">
-          <h2 className="text-3xl md:text-4xl text-primary-green font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-[44px] text-primary-green font-bold leading-tight mb-6">
             Por que apenas escovar <br className="hidden md:block"/> <span className="font-normal">não é suficiente?</span>
           </h2>
           
-          <div className="space-y-6 text-neutral-text text-lg font-light leading-relaxed">
+          <div className="space-y-6 text-neutral-text text-sm font-light leading-relaxed">
             <p>
               A escovação alcança apenas <strong className="font-bold">25% da superfície bucal</strong>. Os outros 75% são o esconderijo perfeito para bactérias anaeróbicas que fermentam restos de alimentos, liberando <span className="underline decoration-brand-gold/50 decoration-2 underline-offset-2">compostos de enxofre</span> — a verdadeira causa do mau hálito e da gengivite.
             </p>
@@ -65,7 +65,7 @@ export const ProblemSection: React.FC = () => {
               <h3 className="text-brand-gold font-bold text-xl mb-3 flex items-center gap-2">
                 <AlertTriangle className="w-5 h-5" /> O Diferencial N1
               </h3>
-              <p className="text-white/90 font-light">
+              <p className="text-white/90 font-light text-sm leading-relaxed">
                 O N1 Bucal Blend não apenas limpa; <strong>ele oxigena.</strong> Bactérias ruins não sobrevivem em ambientes ricos em oxigênio. Nossa fórmula penetra onde a escova não chega, neutralizando a acidez e protegendo seu sorriso por até 12 horas.
               </p>
             </div>

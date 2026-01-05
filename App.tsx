@@ -17,16 +17,6 @@ function App() {
         <ComparisonSection />
         <OfferSection />
       </main>
-
-      {/* Sticky Mobile CTA - Visible only on small screens when scrolled past hero */}
-      <div className="fixed bottom-0 left-0 w-full p-4 bg-white border-t border-neutral-100 md:hidden z-40 shadow-[0_-5px_20px_rgba(0,0,0,0.05)]">
-         <button 
-            onClick={() => document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' })}
-            className="w-full bg-brand-gold text-primary-green font-bold py-3 rounded-xl shadow-lg text-sm uppercase tracking-wide"
-         >
-            Quero Meu Sorriso Saudável
-         </button>
-      </div>
     </div>
   );
 }

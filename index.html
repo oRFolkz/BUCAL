@@ -9,7 +9,7 @@
     <!-- Google Fonts: Montserrat Only -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -27,6 +27,17 @@
             fontFamily: {
               sans: ['Montserrat', 'sans-serif'],
               // Removed serif to enforce Montserrat globally
+            },
+            fontSize: {
+              xs: '12px',      // Explicitly 12px for Kickers/Labels
+              sm: '14px',      // Explicitly 14px for Body Text (matches request)
+              base: '16px',    // Standard base
+              lg: '18px',
+              xl: '20px',
+              '2xl': '24px',
+              '3xl': '30px',
+              '4xl': '36px',
+              '5xl': '48px',
             },
             borderRadius: {
               '4xl': '2rem',

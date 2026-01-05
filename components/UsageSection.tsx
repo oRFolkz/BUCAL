@@ -7,10 +7,10 @@ export const UsageSection: React.FC = () => {
     <Section id="section_usage" background="light">
       <div className="text-center max-w-3xl mx-auto mb-16">
         <span className="text-brand-gold font-bold tracking-widest text-xs uppercase mb-3 block">Protocolo Clínico</span>
-        <h2 className="text-3xl md:text-4xl text-primary-green font-bold mb-6">
+        <h2 className="text-3xl md:text-4xl lg:text-[44px] text-primary-green font-bold leading-tight mb-6">
           Versatilidade e <span className="font-normal">Potência</span>
         </h2>
-        <p className="text-neutral-text/80 font-light text-lg">
+        <p className="text-neutral-text/80 font-light text-sm leading-relaxed max-w-2xl mx-auto">
           Integre o poder do ozônio à sua rotina de forma simples e multifuncional.
         </p>
       </div>

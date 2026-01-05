@@ -8,7 +8,7 @@ const Testimonial = ({ name, role, text }: { name: string, role: string, text: s
     <div className="flex gap-1 mb-4">
       {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 text-brand-gold fill-current" />)}
     </div>
-    <p className="text-neutral-text italic font-light mb-6 flex-grow text-sm md:text-base">"{text}"</p>
+    <p className="text-neutral-text italic font-light mb-6 flex-grow text-sm">"{text}"</p>
     <div className="mt-auto">
       <p className="font-bold text-primary-green">{name}</p>
       <p className="text-xs uppercase tracking-wider text-neutral-400">{role}</p>
@@ -58,7 +58,7 @@ export const BenefitsSection: React.FC = () => {
                 </div>
             </div>
             
-            <p className="text-center text-neutral-text font-light mb-8 px-2 md:px-6 leading-relaxed">
+            <p className="text-center text-neutral-text font-light mb-8 px-2 md:px-6 leading-relaxed text-sm">
               Diferença notável já nas primeiras aplicações. Hálito mais fresco, dentes mais limpos, gengivas mais saudáveis e proteção duradoura contra problemas bucais.
             </p>
 
@@ -72,16 +72,16 @@ export const BenefitsSection: React.FC = () => {
         <Testimonial 
           name="Dr. André L."
           role="Cirurgião Dentista"
-          text="O N1 mudou meu protocolo clínico. Indico para todos os pacientes com doença periodontal. A recuperação tecidual é fantástica."
+          text="O Bucal Blend mudou meu protocolo clínico. Indico para todos os pacientes com doença periodontal. A recuperação tecidual é fantástica."
         />
         <Testimonial 
           name="Mariana S."
           role="Cliente Verificada"
-          text="Eu tinha vergonha de conversar de perto. O N1 me devolveu a segurança. Sinto minha boca limpa o dia todo, como se tivesse acabado de sair do dentista."
+          text="Eu tinha vergonha de conversar de perto. O Bucal Blend me devolveu a segurança. Sinto minha boca limpa o dia todo, como se tivesse acabado de sair do dentista."
         />
         <Testimonial 
           name="Carlos E."
-          role="Cliente Verificado"
+          role="Cliente Verificada"
           text="Sofria com aftas recorrentes. Bastou aplicar uma gota do N1 e a dor sumiu. Cicatrizou em tempo recorde."
         />
       </div>
